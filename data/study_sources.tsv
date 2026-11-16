@@ -1,0 +1,48 @@
+source_number	study_id_raw	publication_doi	doi_url	retained_records	target_code	normalization_note
+1	10.1007/s00216-010-4066-0	10.1007/s00216-010-4066-0	https://doi.org/10.1007/s00216-010-4066-0	12		
+2	10.1016/j.cej.2018.04.042	10.1016/j.cej.2018.04.042	https://doi.org/10.1016/j.cej.2018.04.042	5		
+3	10.1016/j.chemosphere.2009.09.008	10.1016/j.chemosphere.2009.09.008	https://doi.org/10.1016/j.chemosphere.2009.09.008	1		
+4	10.1016/j.chemosphere.2011.06.046	10.1016/j.chemosphere.2011.06.046	https://doi.org/10.1016/j.chemosphere.2011.06.046	7		
+5	10.1016/j.chemosphere.2012.08.041	10.1016/j.chemosphere.2012.08.041	https://doi.org/10.1016/j.chemosphere.2012.08.041	1		
+6	10.1016/j.chemosphere.2015.10.055	10.1016/j.chemosphere.2015.10.055	https://doi.org/10.1016/j.chemosphere.2015.10.055	5		
+7	10.1016/j.chemosphere.2016.11.114	10.1016/j.chemosphere.2016.11.114	https://doi.org/10.1016/j.chemosphere.2016.11.114	1		
+8	10.1016/j.chemosphere.2018.05.012	10.1016/j.chemosphere.2018.05.012	https://doi.org/10.1016/j.chemosphere.2018.05.012	14		
+9	10.1016/j.chemosphere.2018.10.098	10.1016/j.chemosphere.2018.10.098	https://doi.org/10.1016/j.chemosphere.2018.10.098	6	t00	
+10	10.1016/j.chemosphere.2019.02.012	10.1016/j.chemosphere.2019.02.012	https://doi.org/10.1016/j.chemosphere.2019.02.012	28		
+11	10.1016/j.chemosphere.2021.133224	10.1016/j.chemosphere.2021.133224	https://doi.org/10.1016/j.chemosphere.2021.133224	12		
+12	10.1016/j.chemosphere.2022.134167	10.1016/j.chemosphere.2022.134167	https://doi.org/10.1016/j.chemosphere.2022.134167	34		
+13	10.1016/j.chemosphere.2023.138133	10.1016/j.chemosphere.2023.138133	https://doi.org/10.1016/j.chemosphere.2023.138133	60	t01	
+14	10.1016/j.ecoenv.2017.01.022	10.1016/j.ecoenv.2017.01.022	https://doi.org/10.1016/j.ecoenv.2017.01.022	10	t02	
+15	10.1016/j.ecoenv.2017.03.040	10.1016/j.ecoenv.2017.03.040	https://doi.org/10.1016/j.ecoenv.2017.03.040	6	t03	
+16	10.1016/j.ecoenv.2020.111105	10.1016/j.ecoenv.2020.111105	https://doi.org/10.1016/j.ecoenv.2020.111105	1		
+17	10.1016/j.envpol.2008.06.035	10.1016/j.envpol.2008.06.035	https://doi.org/10.1016/j.envpol.2008.06.035	1		
+18	10.1016/j.envpol.2010.01.009	10.1016/j.envpol.2010.01.009	https://doi.org/10.1016/j.envpol.2010.01.009	15	t04	
+19	10.1016/j.envpol.2019.113726	10.1016/j.envpol.2019.113726	https://doi.org/10.1016/j.envpol.2019.113726	77	t05	
+20	10.1016/j.envpol.2022.118957	10.1016/j.envpol.2022.118957	https://doi.org/10.1016/j.envpol.2022.118957	8		
+21	10.1016/j.eti.2020.100965	10.1016/j.eti.2020.100965	https://doi.org/10.1016/j.eti.2020.100965	8	t06	
+22	10.1016/j.marpolbul.2012.03.012	10.1016/j.marpolbul.2012.03.012	https://doi.org/10.1016/j.marpolbul.2012.03.012	5		
+23	10.1016/j.scitotenv.2014.12.017	10.1016/j.scitotenv.2014.12.017	https://doi.org/10.1016/j.scitotenv.2014.12.017	18	t07	
+24	10.1016/j.scitotenv.2018.08.209	10.1016/j.scitotenv.2018.08.209	https://doi.org/10.1016/j.scitotenv.2018.08.209	30	t08	
+25	10.1016/j.scitotenv.2019.05.339	10.1016/j.scitotenv.2019.05.339	https://doi.org/10.1016/j.scitotenv.2019.05.339	100	t09	
+26	10.1016/j.scitotenv.2019.134766	10.1016/j.scitotenv.2019.134766	https://doi.org/10.1016/j.scitotenv.2019.134766	9		
+27	10.1016/j.scitotenv.2020.1372630048-9697	10.1016/j.scitotenv.2020.137263	https://doi.org/10.1016/j.scitotenv.2020.137263	57	t10	Removed appended ISSN 0048-9697 from the displayed DOI; analysis identifier unchanged.
+28	10.1016/j.scitotenv.2021.149343	10.1016/j.scitotenv.2021.149343	https://doi.org/10.1016/j.scitotenv.2021.149343	56	t11	
+29	10.1016/j.scitotenv.2022.152975	10.1016/j.scitotenv.2022.152975	https://doi.org/10.1016/j.scitotenv.2022.152975	27		
+30	10.1021/acs.est.0c05705	10.1021/acs.est.0c05705	https://doi.org/10.1021/acs.est.0c05705	289	t12	
+31	10.1021/acs.est.0c07202	10.1021/acs.est.0c07202	https://doi.org/10.1021/acs.est.0c07202	114	t13	
+32	10.1021/acs.est.6b04395	10.1021/acs.est.6b04395	https://doi.org/10.1021/acs.est.6b04395	42	t14	
+33	10.1021/acs.est.7b03452	10.1021/acs.est.7b03452	https://doi.org/10.1021/acs.est.7b03452	26	t15	
+34	10.1021/acs.est.9b02343	10.1021/acs.est.9b02343	https://doi.org/10.1021/acs.est.9b02343	2		
+35	10.1021/acs.est.9b04989	10.1021/acs.est.9b04989	https://doi.org/10.1021/acs.est.9b04989	45		
+36	10.1021/acs.est.9b05379	10.1021/acs.est.9b05379	https://doi.org/10.1021/acs.est.9b05379	15		
+37	10.1021/acs.jafc.8b03492	10.1021/acs.jafc.8b03492	https://doi.org/10.1021/acs.jafc.8b03492	1		
+38	10.1021/es051125c	10.1021/es051125c	https://doi.org/10.1021/es051125c	5		
+39	10.1021/es061000n	10.1021/es061000n	https://doi.org/10.1021/es061000n	34		
+40	10.1021/es070228n	10.1021/es070228n	https://doi.org/10.1021/es070228n	7		
+41	10.1021/es3048043	10.1021/es3048043	https://doi.org/10.1021/es3048043	31		
+42	10.1021/es960649x	10.1021/es960649x	https://doi.org/10.1021/es960649x	20	t16	
+43	10.1021/je060285g	10.1021/je060285g	https://doi.org/10.1021/je060285g	1		
+44	10.1039/c0em00791a	10.1039/c0em00791a	https://doi.org/10.1039/c0em00791a	6		
+45	10.1039/c2em30394a	10.1039/c2em30394a	https://doi.org/10.1039/c2em30394a	6	t17	
+46	10.1039/c9ew00426b	10.1039/c9ew00426b	https://doi.org/10.1039/c9ew00426b	6		
+47	10.1080/19443994.2013.792145	10.1080/19443994.2013.792145	https://doi.org/10.1080/19443994.2013.792145	10	t18	

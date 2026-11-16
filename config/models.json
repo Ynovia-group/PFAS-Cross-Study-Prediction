@@ -1,0 +1,1123 @@
+{
+  "ridge": {
+    "model": "ridge",
+    "family": "linear",
+    "seeds": [
+      11
+    ],
+    "candidates": [
+      {
+        "alpha": 1
+      },
+      {
+        "alpha": 0.001
+      },
+      {
+        "alpha": 0.01
+      },
+      {
+        "alpha": 0.03
+      },
+      {
+        "alpha": 0.1
+      },
+      {
+        "alpha": 0.3
+      },
+      {
+        "alpha": 3
+      },
+      {
+        "alpha": 10
+      },
+      {
+        "alpha": 30
+      },
+      {
+        "alpha": 100
+      },
+      {
+        "alpha": 300
+      },
+      {
+        "alpha": 1000
+      }
+    ],
+    "shared_parameters": {}
+  },
+  "elastic_net": {
+    "model": "elastic_net",
+    "family": "linear",
+    "seeds": [
+      11
+    ],
+    "candidates": [
+      {
+        "alpha": 0.01,
+        "l1_ratio": 0.5
+      },
+      {
+        "alpha": 0.01,
+        "l1_ratio": 0.1
+      },
+      {
+        "alpha": 0.01,
+        "l1_ratio": 0.9
+      },
+      {
+        "alpha": 0.001,
+        "l1_ratio": 0.5
+      },
+      {
+        "alpha": 0.001,
+        "l1_ratio": 0.1
+      },
+      {
+        "alpha": 0.001,
+        "l1_ratio": 0.9
+      },
+      {
+        "alpha": 0.1,
+        "l1_ratio": 0.5
+      },
+      {
+        "alpha": 0.1,
+        "l1_ratio": 0.1
+      },
+      {
+        "alpha": 0.1,
+        "l1_ratio": 0.9
+      },
+      {
+        "alpha": 1,
+        "l1_ratio": 0.5
+      },
+      {
+        "alpha": 1,
+        "l1_ratio": 0.1
+      },
+      {
+        "alpha": 1,
+        "l1_ratio": 0.9
+      }
+    ],
+    "shared_parameters": {}
+  },
+  "knn": {
+    "model": "knn",
+    "family": "distance",
+    "seeds": [
+      11
+    ],
+    "candidates": [
+      {
+        "n_neighbors": 5,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 5,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 1,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 1,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 3,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 3,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 7,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 7,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 11,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 11,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 15,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 15,
+        "weights": "distance"
+      }
+    ],
+    "shared_parameters": {}
+  },
+  "decision_tree": {
+    "model": "decision_tree",
+    "family": "single_tree",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "max_depth": 4,
+        "min_samples_leaf": 2
+      },
+      {
+        "max_depth": 4,
+        "min_samples_leaf": 1
+      },
+      {
+        "max_depth": 4,
+        "min_samples_leaf": 5
+      },
+      {
+        "max_depth": 2,
+        "min_samples_leaf": 2
+      },
+      {
+        "max_depth": 2,
+        "min_samples_leaf": 1
+      },
+      {
+        "max_depth": 2,
+        "min_samples_leaf": 5
+      },
+      {
+        "max_depth": 6,
+        "min_samples_leaf": 2
+      },
+      {
+        "max_depth": 6,
+        "min_samples_leaf": 1
+      },
+      {
+        "max_depth": 6,
+        "min_samples_leaf": 5
+      },
+      {
+        "max_depth": null,
+        "min_samples_leaf": 2
+      },
+      {
+        "max_depth": null,
+        "min_samples_leaf": 1
+      },
+      {
+        "max_depth": null,
+        "min_samples_leaf": 5
+      }
+    ],
+    "shared_parameters": {}
+  },
+  "random_forest": {
+    "model": "random_forest",
+    "family": "randomized_tree_ensemble",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "max_depth": null
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "max_depth": 12
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 1,
+        "max_depth": null
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 1,
+        "max_depth": 12
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 5,
+        "max_depth": null
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 5,
+        "max_depth": 12
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 2,
+        "max_depth": null
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 2,
+        "max_depth": 12
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 1,
+        "max_depth": null
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 1,
+        "max_depth": 12
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 5,
+        "max_depth": null
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 5,
+        "max_depth": 12
+      }
+    ],
+    "shared_parameters": {
+      "n_estimators": 400,
+      "n_jobs": 2
+    }
+  },
+  "extratrees": {
+    "model": "extratrees",
+    "family": "randomized_tree_ensemble",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "max_depth": null
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 2,
+        "max_depth": 12
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 1,
+        "max_depth": null
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 1,
+        "max_depth": 12
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 5,
+        "max_depth": null
+      },
+      {
+        "max_features": 1.0,
+        "min_samples_leaf": 5,
+        "max_depth": 12
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 2,
+        "max_depth": null
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 2,
+        "max_depth": 12
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 1,
+        "max_depth": null
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 1,
+        "max_depth": 12
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 5,
+        "max_depth": null
+      },
+      {
+        "max_features": 0.5,
+        "min_samples_leaf": 5,
+        "max_depth": 12
+      }
+    ],
+    "shared_parameters": {
+      "n_estimators": 400,
+      "n_jobs": 2
+    }
+  },
+  "xgboost": {
+    "model": "xgboost",
+    "family": "boosted_tree",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "max_depth": 4,
+        "learning_rate": 0.03,
+        "reg_lambda": 1
+      },
+      {
+        "max_depth": 4,
+        "learning_rate": 0.03,
+        "reg_lambda": 10
+      },
+      {
+        "max_depth": 4,
+        "learning_rate": 0.1,
+        "reg_lambda": 1
+      },
+      {
+        "max_depth": 4,
+        "learning_rate": 0.1,
+        "reg_lambda": 10
+      },
+      {
+        "max_depth": 2,
+        "learning_rate": 0.03,
+        "reg_lambda": 1
+      },
+      {
+        "max_depth": 2,
+        "learning_rate": 0.03,
+        "reg_lambda": 10
+      },
+      {
+        "max_depth": 2,
+        "learning_rate": 0.1,
+        "reg_lambda": 1
+      },
+      {
+        "max_depth": 2,
+        "learning_rate": 0.1,
+        "reg_lambda": 10
+      },
+      {
+        "max_depth": 6,
+        "learning_rate": 0.03,
+        "reg_lambda": 1
+      },
+      {
+        "max_depth": 6,
+        "learning_rate": 0.03,
+        "reg_lambda": 10
+      },
+      {
+        "max_depth": 6,
+        "learning_rate": 0.1,
+        "reg_lambda": 1
+      },
+      {
+        "max_depth": 6,
+        "learning_rate": 0.1,
+        "reg_lambda": 10
+      }
+    ],
+    "shared_parameters": {
+      "n_estimators": 500,
+      "objective": "reg:squarederror",
+      "tree_method": "hist",
+      "n_jobs": 2
+    }
+  },
+  "lightgbm": {
+    "model": "lightgbm",
+    "family": "boosted_tree",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 31,
+        "learning_rate": 0.05,
+        "min_child_samples": 5
+      },
+      {
+        "num_leaves": 31,
+        "learning_rate": 0.03,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 31,
+        "learning_rate": 0.03,
+        "min_child_samples": 5
+      },
+      {
+        "num_leaves": 7,
+        "learning_rate": 0.05,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 7,
+        "learning_rate": 0.05,
+        "min_child_samples": 5
+      },
+      {
+        "num_leaves": 7,
+        "learning_rate": 0.03,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 7,
+        "learning_rate": 0.03,
+        "min_child_samples": 5
+      },
+      {
+        "num_leaves": 15,
+        "learning_rate": 0.05,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 15,
+        "learning_rate": 0.05,
+        "min_child_samples": 5
+      },
+      {
+        "num_leaves": 15,
+        "learning_rate": 0.03,
+        "min_child_samples": 20
+      },
+      {
+        "num_leaves": 15,
+        "learning_rate": 0.03,
+        "min_child_samples": 5
+      }
+    ],
+    "shared_parameters": {
+      "n_estimators": 500,
+      "n_jobs": 2
+    }
+  },
+  "catboost": {
+    "model": "catboost",
+    "family": "boosted_tree",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "depth": 6,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3
+      },
+      {
+        "depth": 6,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 10
+      },
+      {
+        "depth": 6,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 3
+      },
+      {
+        "depth": 6,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      },
+      {
+        "depth": 4,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3
+      },
+      {
+        "depth": 4,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 10
+      },
+      {
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 3
+      },
+      {
+        "depth": 4,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      },
+      {
+        "depth": 8,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 3
+      },
+      {
+        "depth": 8,
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 10
+      },
+      {
+        "depth": 8,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 3
+      },
+      {
+        "depth": 8,
+        "learning_rate": 0.03,
+        "l2_leaf_reg": 10
+      }
+    ],
+    "shared_parameters": {
+      "iterations": 500,
+      "thread_count": 2,
+      "allow_writing_files": false
+    }
+  },
+  "svr_rbf": {
+    "model": "svr_rbf",
+    "family": "kernel",
+    "seeds": [
+      11
+    ],
+    "candidates": [
+      {
+        "C": 1.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.03
+      },
+      {
+        "C": 1.0,
+        "gamma": 0.3
+      },
+      {
+        "C": 0.1,
+        "gamma": "scale"
+      },
+      {
+        "C": 0.1,
+        "gamma": 0.03
+      },
+      {
+        "C": 0.1,
+        "gamma": 0.3
+      },
+      {
+        "C": 10.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.03
+      },
+      {
+        "C": 10.0,
+        "gamma": 0.3
+      },
+      {
+        "C": 100.0,
+        "gamma": "scale"
+      },
+      {
+        "C": 100.0,
+        "gamma": 0.03
+      },
+      {
+        "C": 100.0,
+        "gamma": 0.3
+      }
+    ],
+    "shared_parameters": {
+      "kernel": "rbf",
+      "epsilon": 0.1
+    }
+  },
+  "gp_matern": {
+    "model": "gp_matern",
+    "family": "kernel",
+    "seeds": [
+      11
+    ],
+    "candidates": [
+      {
+        "length_scale": 1.0,
+        "noise_level": 0.1
+      },
+      {
+        "length_scale": 1.0,
+        "noise_level": 0.01
+      },
+      {
+        "length_scale": 1.0,
+        "noise_level": 1.0
+      },
+      {
+        "length_scale": 1.0,
+        "noise_level": 10.0
+      },
+      {
+        "length_scale": 0.1,
+        "noise_level": 0.1
+      },
+      {
+        "length_scale": 0.1,
+        "noise_level": 0.01
+      },
+      {
+        "length_scale": 0.1,
+        "noise_level": 1.0
+      },
+      {
+        "length_scale": 0.1,
+        "noise_level": 10.0
+      },
+      {
+        "length_scale": 10.0,
+        "noise_level": 0.1
+      },
+      {
+        "length_scale": 10.0,
+        "noise_level": 0.01
+      },
+      {
+        "length_scale": 10.0,
+        "noise_level": 1.0
+      },
+      {
+        "length_scale": 10.0,
+        "noise_level": 10.0
+      }
+    ],
+    "shared_parameters": {
+      "nu": 1.5,
+      "optimizer": null,
+      "normalize_y": true
+    }
+  },
+  "additive_spline": {
+    "model": "additive_spline",
+    "family": "additive_nonlinear",
+    "seeds": [
+      11
+    ],
+    "candidates": [
+      {
+        "n_knots": 3,
+        "alpha": 1.0
+      },
+      {
+        "n_knots": 3,
+        "alpha": 0.1
+      },
+      {
+        "n_knots": 3,
+        "alpha": 10.0
+      },
+      {
+        "n_knots": 3,
+        "alpha": 100.0
+      },
+      {
+        "n_knots": 5,
+        "alpha": 1.0
+      },
+      {
+        "n_knots": 5,
+        "alpha": 0.1
+      },
+      {
+        "n_knots": 5,
+        "alpha": 10.0
+      },
+      {
+        "n_knots": 5,
+        "alpha": 100.0
+      },
+      {
+        "n_knots": 7,
+        "alpha": 1.0
+      },
+      {
+        "n_knots": 7,
+        "alpha": 0.1
+      },
+      {
+        "n_knots": 7,
+        "alpha": 10.0
+      },
+      {
+        "n_knots": 7,
+        "alpha": 100.0
+      }
+    ],
+    "shared_parameters": {
+      "degree": 3,
+      "include_bias": false,
+      "extrapolation": "constant"
+    }
+  },
+  "mlp": {
+    "model": "mlp",
+    "family": "neural_network",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      }
+    ],
+    "shared_parameters": {
+      "n_blocks": 2,
+      "weight_decay": 1e-05,
+      "max_epochs": 300,
+      "patience": 30,
+      "batch_size": 64
+    }
+  },
+  "resnet": {
+    "model": "resnet",
+    "family": "neural_network",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      }
+    ],
+    "shared_parameters": {
+      "n_blocks": 2,
+      "weight_decay": 1e-05,
+      "max_epochs": 300,
+      "patience": 30,
+      "batch_size": 64
+    }
+  },
+  "ft_transformer": {
+    "model": "ft_transformer",
+    "family": "tabular_transformer",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      }
+    ],
+    "shared_parameters": {
+      "n_blocks": 2,
+      "weight_decay": 1e-05,
+      "max_epochs": 300,
+      "patience": 30,
+      "batch_size": 64
+    }
+  },
+  "tabm": {
+    "model": "tabm",
+    "family": "neural_ensemble",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "candidates": [
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 128,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 64,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.1,
+        "learning_rate": 0.001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.0001
+      },
+      {
+        "width": 192,
+        "dropout": 0.0,
+        "learning_rate": 0.001
+      }
+    ],
+    "shared_parameters": {
+      "n_blocks": 2,
+      "weight_decay": 1e-05,
+      "max_epochs": 300,
+      "patience": 30,
+      "batch_size": 64
+    }
+  },
+  "tabpfn_v2": {
+    "model": "tabpfn_v2",
+    "family": "pretrained_tabular",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "version": "V2",
+    "n_estimators": 8,
+    "checkpoint_sha256": "2ab5a07d5c41dfe6db9aa7ae106fc6de898326c2765be66505a07e2868c10736"
+  },
+  "tabpfn_v3": {
+    "model": "tabpfn_v3",
+    "family": "pretrained_tabular",
+    "seeds": [
+      11,
+      22,
+      33
+    ],
+    "version": "V3",
+    "n_estimators": 8,
+    "checkpoint_sha256": "311ce18d97e9533d8585eaadafe040fbdd8070533209ed8696641dadc97a7301"
+  }
+}

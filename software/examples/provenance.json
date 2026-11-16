@@ -1,0 +1,28 @@
+{
+  "study_doi": "10.1016/j.chemosphere.2018.10.098",
+  "scenario": "t00_r0_b2",
+  "source_models": [
+    "extratrees",
+    "ridge",
+    "svr_rbf",
+    "gp_matern",
+    "xgboost",
+    "tabm",
+    "tabpfn_v2"
+  ],
+  "rule_for_example": "First target index and first two-soil partition, chosen without selecting for improvement.",
+  "prediction_provenance": "Source models excluded the target publication and all source rows sharing its soil identifiers.",
+  "ranking_conditions": "Experimental-condition comparability is not audited for this example; ranking is off by default.",
+  "known_soils": [
+    281,
+    150
+  ],
+  "audit_soils": [
+    32,
+    244,
+    249,
+    26
+  ],
+  "protocol_file": "config/calibration_splits.json",
+  "prediction_file": "data/predictions/calibration_predictions.csv"
+}

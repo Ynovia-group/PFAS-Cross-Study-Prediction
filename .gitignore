@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+uploads/
+results/
+*.log

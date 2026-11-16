@@ -1,0 +1,104 @@
+{
+  "target": "target_log_kd",
+  "target_definition": "log10(Kd / (L/kg))",
+  "feature_columns": [
+    "mw_g_mol",
+    "pka1",
+    "pka2",
+    "log_kow",
+    "carbon_count",
+    "fluorine_count",
+    "pfas_subfamily",
+    "ph",
+    "cec_cmol_kg",
+    "corg_percent",
+    "sand_percent",
+    "silt_percent",
+    "clay_percent"
+  ],
+  "numeric_features": [
+    "mw_g_mol",
+    "pka1",
+    "pka2",
+    "log_kow",
+    "carbon_count",
+    "fluorine_count",
+    "ph",
+    "cec_cmol_kg",
+    "corg_percent",
+    "sand_percent",
+    "silt_percent",
+    "clay_percent"
+  ],
+  "categorical_features": [
+    "pfas_subfamily"
+  ],
+  "column_provenance": {
+    "mw_g_mol": {
+      "excel_column": "K",
+      "header": "MW",
+      "unit_or_second_header": "[g/mol]"
+    },
+    "pka1": {
+      "excel_column": "L",
+      "header": "pKa1",
+      "unit_or_second_header": "[-]"
+    },
+    "pka2": {
+      "excel_column": "M",
+      "header": "pKa2",
+      "unit_or_second_header": "[-]"
+    },
+    "log_kow": {
+      "excel_column": "AF",
+      "header": "log",
+      "unit_or_second_header": "Kow"
+    },
+    "carbon_count": {
+      "excel_column": "Z",
+      "header": "C number",
+      "unit_or_second_header": "[n]"
+    },
+    "fluorine_count": {
+      "excel_column": "AA",
+      "header": "F number",
+      "unit_or_second_header": "[n]"
+    },
+    "pfas_subfamily": {
+      "excel_column": "I",
+      "header": "PFAS",
+      "unit_or_second_header": "Subfamily"
+    },
+    "ph": {
+      "excel_column": "AG",
+      "header": "pH",
+      "unit_or_second_header": "measured"
+    },
+    "cec_cmol_kg": {
+      "excel_column": "AP",
+      "header": "CEC",
+      "unit_or_second_header": "cmol+/kg"
+    },
+    "corg_percent": {
+      "excel_column": "AW",
+      "header": "Corg",
+      "unit_or_second_header": "%"
+    },
+    "sand_percent": {
+      "excel_column": "AR",
+      "header": "Sand",
+      "unit_or_second_header": "% mineral"
+    },
+    "silt_percent": {
+      "excel_column": "AS",
+      "header": "Silt",
+      "unit_or_second_header": "% mineral"
+    },
+    "clay_percent": {
+      "excel_column": "AT",
+      "header": "Clay",
+      "unit_or_second_header": "% mineral"
+    }
+  },
+  "missing_policy": "Author KNN values restored before splitting; model imputation is fitted only on training folds."
+}
